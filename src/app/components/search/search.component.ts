@@ -21,7 +21,7 @@ export class SearchComponent {
     .subscribe( (data): any => {
       console.log(data);
       this.artistas = data;
-      this.loading = false; 
+      this.loading = false; // prueba
     });
   }
 }
